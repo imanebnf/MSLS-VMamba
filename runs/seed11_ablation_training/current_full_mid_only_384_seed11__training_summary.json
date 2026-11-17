@@ -1,0 +1,36 @@
+{
+  "name": "current_full_mid_only_384",
+  "model": "single_scale_mid",
+  "seed": 11,
+  "best_epoch": 24,
+  "parameters": 29790225,
+  "training_minutes": 15.0948894739151,
+  "optimization_validation": {
+    "dataset": "PlantSeg-optimization-validation",
+    "accuracy": 82.28571428571428,
+    "balanced_accuracy": 79.51451318515115,
+    "macro_f1": 79.39996499896074,
+    "macro_precision": 79.92805105159384,
+    "macro_recall": 79.51451318515115,
+    "mask_iou": 54.897998848201304,
+    "mask_dice": 70.8827735108455
+  },
+  "spec": {
+    "img_size": 384,
+    "batch_size": 16,
+    "accumulation_steps": 2,
+    "label_smoothing": 0.1,
+    "warmup_epochs": 4,
+    "encoder_lr": 5e-05,
+    "head_lr": 0.0005,
+    "mask_target_mode": "correct",
+    "name": "current_full_mid_only_384",
+    "model": "single_scale_mid",
+    "scale_name": "mid",
+    "scale_index": 1,
+    "scale_channels": 384
+  },
+  "protocol": "clean_protocol_v1",
+  "protocol_fingerprint": "ff6e6b3bca40e614062e611a50d6736690a3658d433593f500a0c34c651ec648",
+  "official_tests_evaluated": false
+}

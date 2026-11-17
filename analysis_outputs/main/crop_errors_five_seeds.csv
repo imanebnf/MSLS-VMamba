@@ -1,0 +1,25 @@
+split,model,seed,images,errors,cross_crop_errors,within_crop_errors
+PlantSeg test,VMamba,11,435,77,23,54
+PlantSeg test,VMamba,22,435,66,18,48
+PlantSeg test,VMamba,33,435,73,19,54
+PlantSeg test,VMamba,44,435,77,21,56
+PlantSeg test,VMamba,55,435,70,15,55
+PlantSeg test,VMamba,mean,435,72.6,19.2,53.4
+PlantSeg test,MSLS-VMamba,11,435,57,9,48
+PlantSeg test,MSLS-VMamba,22,435,66,12,54
+PlantSeg test,MSLS-VMamba,33,435,63,11,52
+PlantSeg test,MSLS-VMamba,44,435,68,16,52
+PlantSeg test,MSLS-VMamba,55,435,64,13,51
+PlantSeg test,MSLS-VMamba,mean,435,63.6,12.2,51.4
+PlantDoc,VMamba,11,1379,441,139,302
+PlantDoc,VMamba,22,1379,444,135,309
+PlantDoc,VMamba,33,1379,443,129,314
+PlantDoc,VMamba,44,1379,481,153,328
+PlantDoc,VMamba,55,1379,451,132,319
+PlantDoc,VMamba,mean,1379,452.0,137.6,314.4
+PlantDoc,MSLS-VMamba,11,1379,432,125,307
+PlantDoc,MSLS-VMamba,22,1379,423,119,304
+PlantDoc,MSLS-VMamba,33,1379,435,132,303
+PlantDoc,MSLS-VMamba,44,1379,441,129,312
+PlantDoc,MSLS-VMamba,55,1379,425,118,307
+PlantDoc,MSLS-VMamba,mean,1379,431.2,124.6,306.6

@@ -1,0 +1,9 @@
+comparison,comparator,split,metric,boot_ci95_low,boot_ci95_high,n_boot
+MSLS-VMamba minus ResNet50,resnet50,plantseg_official_test,macro_f1,0.13969832342727448,6.069948240669585,10000
+MSLS-VMamba minus ResNet50,resnet50,plantdoc_external_clean,macro_f1,0.4654364123196281,4.124557519020926,10000
+MSLS-VMamba minus EfficientNetV2-S,efficientnet_v2_s,plantseg_official_test,macro_f1,-0.8374810313407868,5.208390753438348,10000
+MSLS-VMamba minus EfficientNetV2-S,efficientnet_v2_s,plantdoc_external_clean,macro_f1,-0.876074953422252,3.1054524072212826,10000
+MSLS-VMamba minus ViT-S/16,vit_s16,plantseg_official_test,macro_f1,3.0184216167138462,9.507682322844678,10000
+MSLS-VMamba minus ViT-S/16,vit_s16,plantdoc_external_clean,macro_f1,1.528573324756451,5.004259905351704,10000
+MSLS-VMamba minus VMamba,vmamba_baseline,plantseg_official_test,macro_f1,-0.032059560824329626,4.9002859783126125,10000
+MSLS-VMamba minus VMamba,vmamba_baseline,plantdoc_external_clean,macro_f1,0.2508391026929472,3.2300999266758663,10000

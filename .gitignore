@@ -1,0 +1,10 @@
+OUT/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.safetensors
+*.zip
+PlantDoc-Dataset/
+.DS_Store
+Thumbs.db

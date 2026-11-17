@@ -1,0 +1,33 @@
+{
+  "name": "vmamba_plain_multitask_384",
+  "model": "vmamba_plain_multitask",
+  "seed": 11,
+  "best_epoch": 32,
+  "parameters": 30108691,
+  "training_minutes": 20.281226297219593,
+  "optimization_validation": {
+    "dataset": "PlantSeg-optimization-validation",
+    "accuracy": 82.28571428571428,
+    "balanced_accuracy": 78.94858043087768,
+    "macro_f1": 79.14711174543638,
+    "macro_precision": 80.26267261524318,
+    "macro_recall": 78.94858043087768,
+    "mask_iou": 58.226504179935546,
+    "mask_dice": 73.59892640201444
+  },
+  "spec": {
+    "name": "vmamba_plain_multitask_384",
+    "model": "vmamba_plain_multitask",
+    "img_size": 384,
+    "batch_size": 16,
+    "accumulation_steps": 2,
+    "label_smoothing": 0.1,
+    "warmup_epochs": 4,
+    "encoder_lr": 5e-05,
+    "head_lr": 0.0005,
+    "mask_target_mode": "correct"
+  },
+  "protocol": "clean_protocol_v1",
+  "protocol_fingerprint": "ff6e6b3bca40e614062e611a50d6736690a3658d433593f500a0c34c651ec648",
+  "official_tests_evaluated": false
+}

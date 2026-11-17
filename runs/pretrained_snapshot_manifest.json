@@ -1,0 +1,13 @@
+{
+  "model_repo": "saurabhati/VMamba_ImageNet_82.6",
+  "revision": "3db342a1b00a91c350dca4df93a1645ad2ac9493",
+  "source_kind": "resolved_huggingface_revision",
+  "created_utc": "2026-10-30T23:18:56.895923+00:00",
+  "files": {
+    "config.json": "30e462eb0b9d641753b62c962d1ed0f12a379c014255354e51f0af9abf82529f",
+    "configuration_vmamba.py": "8127f8a7f9d72ba4d76b818d6f4124cd8a7aad72bb580cb606dbe34f2202b7ba",
+    "model.safetensors": "45e94dd6155b492baff6203b1099c9a6b1082b17e2b640246aa1896311d228e1",
+    "modeling_vmamba.py": "644053b605163c09602e590c1128ae813200e172c14c68addaa18e62a0c68828"
+  },
+  "content_sha256": "dcb966adb18f34f1d050b8eb2d154b488b91a5a7fb787770bbac0535fc449479"
+}

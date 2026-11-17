@@ -1,0 +1,17 @@
+class_index,harmonized_class,paper_label,plantseg_original_class,plantdoc_original_class
+0,apple_scab,Apple scab,Apple | apple scab,Apple Scab Leaf
+1,apple_rust,Apple rust,Apple | apple rust,Apple rust leaf
+2,corn_gray_leaf_spot,Corn gray leaf spot,Corn | corn gray leaf spot,Corn Gray leaf spot
+3,corn_rust,Corn rust,Corn | corn rust,Corn rust leaf
+4,corn_northern_blight,Corn northern leaf blight,Corn | corn northern leaf blight,Corn leaf blight
+5,grape_black_rot,Grape black rot,Grape | grape black rot,grape leaf black rot
+6,potato_early_blight,Potato early blight,Potato | potato early blight,Potato leaf early blight
+7,potato_late_blight,Potato late blight,Potato | potato late blight,Potato leaf late blight
+8,squash_powdery_mildew,Squash powdery mildew,Squash | squash powdery mildew,Squash Powdery mildew leaf
+9,tomato_bacterial_spot,Tomato bacterial spot,Tomato | tomato bacterial leaf spot,Tomato leaf bacterial spot
+10,tomato_early_blight,Tomato early blight,Tomato | tomato early blight,Tomato Early blight leaf
+11,tomato_late_blight,Tomato late blight,Tomato | tomato late blight,Tomato leaf late blight
+12,tomato_leaf_mold,Tomato leaf mold,Tomato | tomato leaf mold,Tomato mold leaf
+13,tomato_septoria,Tomato Septoria leaf spot,Tomato | tomato septoria leaf spot,Tomato Septoria leaf spot
+14,tomato_mosaic_virus,Tomato mosaic virus,Tomato | tomato mosaic virus,Tomato leaf mosaic virus
+15,tomato_yellow_curl,Tomato yellow leaf curl,Tomato | tomato yellow leaf curl virus,Tomato leaf yellow virus

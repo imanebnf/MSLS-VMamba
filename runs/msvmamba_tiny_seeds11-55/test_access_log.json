@@ -1,0 +1,72 @@
+[
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed11",
+  "split": "plantseg_official_test",
+  "checkpoint_sha256": "5fb214e88cb08a4b8741f71b38fd783380a3a9765baf70987792cdf791116248",
+  "evaluated_utc": "2026-11-14T13:44:58.324666+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed11",
+  "split": "plantdoc_external_clean",
+  "checkpoint_sha256": "5fb214e88cb08a4b8741f71b38fd783380a3a9765baf70987792cdf791116248",
+  "evaluated_utc": "2026-11-14T13:44:58.324666+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed22",
+  "split": "plantseg_official_test",
+  "checkpoint_sha256": "1b40fb55fb8792dd00cac5ab31b5b71f1c1bdc76a427050e22e547d94b806040",
+  "evaluated_utc": "2026-11-14T13:45:24.602548+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed22",
+  "split": "plantdoc_external_clean",
+  "checkpoint_sha256": "1b40fb55fb8792dd00cac5ab31b5b71f1c1bdc76a427050e22e547d94b806040",
+  "evaluated_utc": "2026-11-14T13:45:24.602548+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed33",
+  "split": "plantseg_official_test",
+  "checkpoint_sha256": "04afa4a13193529d4868f4e02358fa4f8f8bd38b087bff2f40aa538448fc5733",
+  "evaluated_utc": "2026-11-14T13:45:50.482701+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed33",
+  "split": "plantdoc_external_clean",
+  "checkpoint_sha256": "04afa4a13193529d4868f4e02358fa4f8f8bd38b087bff2f40aa538448fc5733",
+  "evaluated_utc": "2026-11-14T13:45:50.482701+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed44",
+  "split": "plantseg_official_test",
+  "checkpoint_sha256": "8672d4d4c34fa91415be3264dd2d47b7a757cca84bab5821542608db2de4da4b",
+  "evaluated_utc": "2026-11-14T13:46:16.223588+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed44",
+  "split": "plantdoc_external_clean",
+  "checkpoint_sha256": "8672d4d4c34fa91415be3264dd2d47b7a757cca84bab5821542608db2de4da4b",
+  "evaluated_utc": "2026-11-14T13:46:16.223588+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed55",
+  "split": "plantseg_official_test",
+  "checkpoint_sha256": "5bb338ca038e4671e5080f68a9e258695cdace6f734bc96260aceeac175e4b51",
+  "evaluated_utc": "2026-11-14T13:46:41.956354+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ },
+ {
+  "run": "cleanv1_msvmamba_tiny_384_seed55",
+  "split": "plantdoc_external_clean",
+  "checkpoint_sha256": "5bb338ca038e4671e5080f68a9e258695cdace6f734bc96260aceeac175e4b51",
+  "evaluated_utc": "2026-11-14T13:46:41.956354+00:00",
+  "purpose": "MSVMamba-Tiny locked evaluation"
+ }
+]

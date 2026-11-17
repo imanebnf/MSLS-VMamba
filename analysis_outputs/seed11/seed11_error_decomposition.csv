@@ -1,0 +1,5 @@
+split,model,images,errors,within_crop_errors,cross_crop_errors,within_crop_share_pct,shared_errors_both_models,shared_same_wrong_label,only_this_model_wrong
+plantseg_official_test,VMamba,435,77,54,23,70.12987012987013,52,43,25
+plantseg_official_test,MSLS-VMamba,435,57,48,9,84.21052631578948,52,43,5
+plantdoc_external_clean,VMamba,1379,441,302,139,68.48072562358277,376,312,65
+plantdoc_external_clean,MSLS-VMamba,1379,432,307,125,71.06481481481481,376,312,56

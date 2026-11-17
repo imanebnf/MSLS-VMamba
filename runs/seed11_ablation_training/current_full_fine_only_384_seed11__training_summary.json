@@ -1,0 +1,36 @@
+{
+  "name": "current_full_fine_only_384",
+  "model": "single_scale_fine",
+  "seed": 11,
+  "best_epoch": 34,
+  "parameters": 29765649,
+  "training_minutes": 20.01001792748769,
+  "optimization_validation": {
+    "dataset": "PlantSeg-optimization-validation",
+    "accuracy": 82.28571428571428,
+    "balanced_accuracy": 78.87276206274987,
+    "macro_f1": 79.34703768644464,
+    "macro_precision": 80.68092827231422,
+    "macro_recall": 78.87276206274987,
+    "mask_iou": 49.74766726789381,
+    "mask_dice": 66.44199295458381
+  },
+  "spec": {
+    "img_size": 384,
+    "batch_size": 16,
+    "accumulation_steps": 2,
+    "label_smoothing": 0.1,
+    "warmup_epochs": 4,
+    "encoder_lr": 5e-05,
+    "head_lr": 0.0005,
+    "mask_target_mode": "correct",
+    "name": "current_full_fine_only_384",
+    "model": "single_scale_fine",
+    "scale_name": "fine",
+    "scale_index": 0,
+    "scale_channels": 192
+  },
+  "protocol": "clean_protocol_v1",
+  "protocol_fingerprint": "ff6e6b3bca40e614062e611a50d6736690a3658d433593f500a0c34c651ec648",
+  "official_tests_evaluated": false
+}

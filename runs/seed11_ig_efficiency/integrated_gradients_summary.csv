@@ -1,0 +1,2 @@
+subset,images,baseline_concentration_mean,current_concentration_mean,mean_delta_concentration,percent_current_more_concentrated,baseline_top10_deletion_drop_mean,current_top10_deletion_drop_mean,mean_delta_top10_deletion_drop
+all,350,2.5566178321278636,4.196951708164745,1.6403338760368817,92.85714285714286,0.34377820287431987,0.39467633179255895,0.05089812891823905

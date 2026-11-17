@@ -1,0 +1,53 @@
+{
+ "gpu": "NVIDIA A100-SXM4-40GB",
+ "checks": [
+  {
+   "model": "vmamba_baseline",
+   "split": "optimization_validation",
+   "agreement": 1.0,
+   "macro_f1_stored": 81.20463898927393,
+   "macro_f1_recomputed": 81.20463898927393,
+   "mismatched_ids": []
+  },
+  {
+   "model": "vmamba_baseline",
+   "split": "plantseg_official_test",
+   "agreement": 1.0,
+   "macro_f1_stored": 79.83979131399805,
+   "macro_f1_recomputed": 79.83979131399805,
+   "mismatched_ids": []
+  },
+  {
+   "model": "vmamba_baseline",
+   "split": "plantdoc_external_clean",
+   "agreement": 1.0,
+   "macro_f1_stored": 66.6768846319099,
+   "macro_f1_recomputed": 66.6768846319099,
+   "mismatched_ids": []
+  },
+  {
+   "model": "current_full",
+   "split": "optimization_validation",
+   "agreement": 1.0,
+   "macro_f1_stored": 81.36632029402068,
+   "macro_f1_recomputed": 81.36632029402068,
+   "mismatched_ids": []
+  },
+  {
+   "model": "current_full",
+   "split": "plantseg_official_test",
+   "agreement": 1.0,
+   "macro_f1_stored": 84.62271601832421,
+   "macro_f1_recomputed": 84.62271601832421,
+   "mismatched_ids": []
+  },
+  {
+   "model": "current_full",
+   "split": "plantdoc_external_clean",
+   "agreement": 1.0,
+   "macro_f1_stored": 67.5048137862322,
+   "macro_f1_recomputed": 67.5048137862322,
+   "mismatched_ids": []
+  }
+ ]
+}

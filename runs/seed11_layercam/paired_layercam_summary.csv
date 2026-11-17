@@ -1,0 +1,2 @@
+subset,images,baseline_energy_pct,current_energy_pct,delta_energy_pp,baseline_concentration,current_concentration,delta_concentration,baseline_pointing_pct,current_pointing_pct
+all_images,350,17.66868839132699,33.747926701192874,16.079238281385706,1.2880577728897333,3.4614490483062608,2.173391279918807,26.571428571428573,54.85714285714286

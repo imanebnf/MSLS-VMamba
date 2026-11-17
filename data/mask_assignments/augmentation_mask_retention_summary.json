@@ -1,0 +1,15 @@
+{
+  "draws_per_image": 8,
+  "images": 1397,
+  "pairs": 11176,
+  "empty_rate_correct": 0.0,
+  "empty_rate_displaced": 0.0,
+  "mean_retained_correct": 0.9935095673219748,
+  "mean_retained_displaced": 0.9899085626616181,
+  "share_retained_below_0.5_correct": 0.0,
+  "share_retained_below_0.5_displaced": 0.00044738725841088047,
+  "mean_paired_difference_retained_displaced_minus_correct": -0.003601004660356747,
+  "resize_and_pad_pixels_equal_share": 0.06657122405153901,
+  "mean_abs_relative_area_difference_after_resize": 0.00233908923237182,
+  "note": "retained = mask pixels after the training transform / pixels after resize-and-pad alone (scale up to 1.1 can exceed 1)"
+}

@@ -1,0 +1,11 @@
+dataset,source_split,exclusion_reason,images
+PlantDoc,test,cross_dataset_label_conflict,5
+PlantDoc,test,plantdoc_internal_label_conflict,6
+PlantDoc,test,plantdoc_overlaps_plantseg,14
+PlantDoc,train,cross_dataset_label_conflict,47
+PlantDoc,train,plantdoc_duplicate_same_class,19
+PlantDoc,train,plantdoc_internal_label_conflict,35
+PlantDoc,train,plantdoc_overlaps_plantseg,150
+PlantSeg,test,plantseg_internal_label_conflict,16
+PlantSeg,training,plantseg_duplicate_same_class,11
+PlantSeg,training,plantseg_internal_label_conflict,49

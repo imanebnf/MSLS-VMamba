@@ -1,0 +1,142 @@
+{
+ "classes": 16,
+ "class_names": [
+  "apple_scab",
+  "apple_rust",
+  "corn_gray_leaf_spot",
+  "corn_rust",
+  "corn_northern_blight",
+  "grape_black_rot",
+  "potato_early_blight",
+  "potato_late_blight",
+  "squash_powdery_mildew",
+  "tomato_bacterial_spot",
+  "tomato_early_blight",
+  "tomato_late_blight",
+  "tomato_leaf_mold",
+  "tomato_septoria",
+  "tomato_mosaic_virus",
+  "tomato_yellow_curl"
+ ],
+ "protocol_fingerprint": "ff6e6b3bca40e614062e611a50d6736690a3658d433593f500a0c34c651ec648",
+ "phash_threshold": 5,
+ "split_seed": 42,
+ "validation_fraction_of_clean_official_training": 0.2,
+ "original_selected_counts": {
+  "plantseg_training": 1808,
+  "plantseg_test": 451,
+  "plantdoc_all": 1655
+ },
+ "final_manifest_counts": {
+  "plantseg_optimization_train.csv": 1398,
+  "plantseg_optimization_validation.csv": 350,
+  "plantseg_official_test.csv": 435,
+  "plantdoc_external_all.csv": 1379
+ },
+ "candidate_pair_summary": [
+  {
+   "relation": "PlantDoc internal",
+   "byte_identical": false,
+   "same_harmonized_class": false,
+   "pairs": 24
+  },
+  {
+   "relation": "PlantDoc internal",
+   "byte_identical": false,
+   "same_harmonized_class": true,
+   "pairs": 27
+  },
+  {
+   "relation": "PlantDoc internal",
+   "byte_identical": true,
+   "same_harmonized_class": false,
+   "pairs": 9
+  },
+  {
+   "relation": "PlantDoc internal",
+   "byte_identical": true,
+   "same_harmonized_class": true,
+   "pairs": 2
+  },
+  {
+   "relation": "PlantSeg internal",
+   "byte_identical": false,
+   "same_harmonized_class": false,
+   "pairs": 11
+  },
+  {
+   "relation": "PlantSeg internal",
+   "byte_identical": false,
+   "same_harmonized_class": true,
+   "pairs": 12
+  },
+  {
+   "relation": "PlantSeg internal",
+   "byte_identical": true,
+   "same_harmonized_class": false,
+   "pairs": 22
+  },
+  {
+   "relation": "PlantSeg internal",
+   "byte_identical": true,
+   "same_harmonized_class": true,
+   "pairs": 1
+  },
+  {
+   "relation": "PlantSeg vs PlantDoc",
+   "byte_identical": false,
+   "same_harmonized_class": false,
+   "pairs": 38
+  },
+  {
+   "relation": "PlantSeg vs PlantDoc",
+   "byte_identical": false,
+   "same_harmonized_class": true,
+   "pairs": 119
+  },
+  {
+   "relation": "PlantSeg vs PlantDoc",
+   "byte_identical": true,
+   "same_harmonized_class": false,
+   "pairs": 12
+  },
+  {
+   "relation": "PlantSeg vs PlantDoc",
+   "byte_identical": true,
+   "same_harmonized_class": true,
+   "pairs": 59
+  }
+ ],
+ "exclusion_summary": [
+  {
+   "dataset": "PlantDoc",
+   "exclusion_reason": "cross_dataset_label_conflict",
+   "images": 52
+  },
+  {
+   "dataset": "PlantDoc",
+   "exclusion_reason": "plantdoc_duplicate_same_class",
+   "images": 19
+  },
+  {
+   "dataset": "PlantDoc",
+   "exclusion_reason": "plantdoc_internal_label_conflict",
+   "images": 41
+  },
+  {
+   "dataset": "PlantDoc",
+   "exclusion_reason": "plantdoc_overlaps_plantseg",
+   "images": 164
+  },
+  {
+   "dataset": "PlantSeg",
+   "exclusion_reason": "plantseg_duplicate_same_class",
+   "images": 11
+  },
+  {
+   "dataset": "PlantSeg",
+   "exclusion_reason": "plantseg_internal_label_conflict",
+   "images": 65
+  }
+ ]
+}

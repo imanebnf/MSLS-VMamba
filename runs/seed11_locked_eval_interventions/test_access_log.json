@@ -1,0 +1,98 @@
+[
+ {
+  "utc": "2026-11-01T10:55:12.106411+00:00",
+  "model": "vmamba_baseline",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:55:25.184497+00:00",
+  "model": "vmamba_baseline",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ },
+ {
+  "utc": "2026-11-01T10:55:50.565462+00:00",
+  "model": "current_full",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:56:07.837920+00:00",
+  "model": "current_full",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ },
+ {
+  "utc": "2026-11-01T10:56:27.138569+00:00",
+  "model": "current_full_no_mask_loss",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:56:44.616056+00:00",
+  "model": "current_full_no_mask_loss",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ },
+ {
+  "utc": "2026-11-01T10:57:04.505519+00:00",
+  "model": "current_full_same_class_permuted_masks",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:57:21.618618+00:00",
+  "model": "current_full_same_class_permuted_masks",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ },
+ {
+  "utc": "2026-11-01T10:57:40.617350+00:00",
+  "model": "vmamba_plain_multitask",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:57:58.060615+00:00",
+  "model": "vmamba_plain_multitask",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ },
+ {
+  "utc": "2026-11-01T10:58:15.991556+00:00",
+  "model": "current_full_fine_only",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:58:33.227324+00:00",
+  "model": "current_full_fine_only",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ },
+ {
+  "utc": "2026-11-01T10:58:51.619237+00:00",
+  "model": "current_full_mid_only",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:59:08.495356+00:00",
+  "model": "current_full_mid_only",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ },
+ {
+  "utc": "2026-11-01T10:59:23.431998+00:00",
+  "model": "current_full_coarse_only",
+  "split": "plantseg_official_test",
+  "n_images": 435
+ },
+ {
+  "utc": "2026-11-01T10:59:40.860648+00:00",
+  "model": "current_full_coarse_only",
+  "split": "plantdoc_external_clean",
+  "n_images": 1379
+ }
+]

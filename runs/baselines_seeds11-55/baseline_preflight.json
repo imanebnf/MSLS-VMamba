@@ -1,0 +1,287 @@
+{
+  "created_utc": "2026-10-31T20:46:57.247280+00:00",
+  "runtime": {
+    "python": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.35",
+    "gpu": "NVIDIA A100-SXM4-40GB",
+    "cuda": "12.1",
+    "cudnn": 8902,
+    "packages": {
+      "torch": "2.2.2+cu121",
+      "torchvision": "0.17.2+cu121",
+      "numpy": "1.26.4",
+      "timm": "0.9.16",
+      "huggingface-hub": "0.36.0",
+      "safetensors": "0.7.0",
+      "scikit-learn": "1.6.1",
+      "scipy": "1.16.3",
+      "pandas": "2.2.2"
+    }
+  },
+  "reports": {
+    "resnet50": {
+      "model": "resnet50",
+      "definition": {
+        "library": "torchvision",
+        "constructor": "resnet50",
+        "weights": "ResNet50_Weights.IMAGENET1K_V2",
+        "head": "fc",
+        "label": "ResNet50"
+      },
+      "head_module": "fc",
+      "head_out_features": 16,
+      "parameters": 23540816,
+      "input_mean_std": {
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ]
+      },
+      "logits_shape": [
+        4,
+        16
+      ],
+      "pretrained_tensors_compared": 318,
+      "pretrained_tensors_mismatched": 0,
+      "pretrained_keys_missing_from_model": [],
+      "lr_groups": {
+        "encoder": {
+          "n_tensors": 159,
+          "n_params": 23508032,
+          "initial_lr": 5e-05
+        },
+        "head": {
+          "n_tensors": 2,
+          "n_params": 32784,
+          "initial_lr": 0.0005,
+          "names": [
+            "net.fc.weight",
+            "net.fc.bias"
+          ]
+        }
+      },
+      "lr_multiplier_epochs_0_1_3_4_20_39": [
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.5868240888334653,
+        0.0019026509541272274
+      ],
+      "dry_run_losses": [
+        2.75407338142395,
+        2.4404921531677246,
+        2.1521289348602295,
+        1.8646278381347656,
+        1.6030387878417969,
+        1.3752470016479492,
+        1.1763551235198975,
+        1.012857437133789,
+        0.8761796951293945,
+        0.7733708620071411,
+        0.6982517242431641,
+        0.6469058990478516
+      ],
+      "checkpoint_roundtrip_max_abs_logit_diff": 0.0,
+      "optimizer_state_roundtrip_equal": true,
+      "scheduler_last_epoch_restored": true,
+      "scaler_scale_restored": true,
+      "pretrained_weights": {
+        "library": "torchvision",
+        "identifier": "torchvision.models.resnet50",
+        "weights": "ResNet50_Weights.IMAGENET1K_V2",
+        "url": "https://download.pytorch.org/models/resnet50-11ad3fa6.pth",
+        "imagenet_acc1": 80.858,
+        "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca"
+      },
+      "passed": true
+    },
+    "efficientnet_v2_s": {
+      "model": "efficientnet_v2_s",
+      "definition": {
+        "library": "torchvision",
+        "constructor": "efficientnet_v2_s",
+        "weights": "EfficientNet_V2_S_Weights.IMAGENET1K_V1",
+        "head": "classifier.1",
+        "label": "EfficientNetV2-S"
+      },
+      "head_module": "classifier.1",
+      "head_out_features": 16,
+      "parameters": 20197984,
+      "input_mean_std": {
+        "mean": [
+          0.485,
+          0.456,
+          0.406
+        ],
+        "std": [
+          0.229,
+          0.224,
+          0.225
+        ]
+      },
+      "logits_shape": [
+        4,
+        16
+      ],
+      "pretrained_tensors_compared": 780,
+      "pretrained_tensors_mismatched": 0,
+      "pretrained_keys_missing_from_model": [],
+      "lr_groups": {
+        "encoder": {
+          "n_tensors": 450,
+          "n_params": 20177488,
+          "initial_lr": 5e-05
+        },
+        "head": {
+          "n_tensors": 2,
+          "n_params": 20496,
+          "initial_lr": 0.0005,
+          "names": [
+            "net.classifier.1.weight",
+            "net.classifier.1.bias"
+          ]
+        }
+      },
+      "lr_multiplier_epochs_0_1_3_4_20_39": [
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.5868240888334653,
+        0.0019026509541272274
+      ],
+      "dry_run_losses": [
+        2.850391387939453,
+        2.511559247970581,
+        2.378897190093994,
+        2.0895438194274902,
+        1.9867491722106934,
+        1.7763564586639404,
+        1.541319727897644,
+        1.4299572706222534,
+        1.3028695583343506,
+        1.1432102918624878,
+        1.100386142730713,
+        0.992087721824646
+      ],
+      "checkpoint_roundtrip_max_abs_logit_diff": 0.0,
+      "optimizer_state_roundtrip_equal": true,
+      "scheduler_last_epoch_restored": true,
+      "scaler_scale_restored": true,
+      "pretrained_weights": {
+        "library": "torchvision",
+        "identifier": "torchvision.models.efficientnet_v2_s",
+        "weights": "EfficientNet_V2_S_Weights.IMAGENET1K_V1",
+        "url": "https://download.pytorch.org/models/efficientnet_v2_s-dd5fe13b.pth",
+        "imagenet_acc1": 84.228,
+        "sha256": "dd5fe13b1d60ec15317ccc8ca158186e134d3366c3dde9cb9a4e301f2dc66c74"
+      },
+      "passed": true
+    },
+    "vit_s16": {
+      "model": "vit_s16",
+      "definition": {
+        "library": "timm",
+        "constructor": "vit_small_patch16_224.augreg_in1k",
+        "weights": "timm pretrained tag augreg_in1k",
+        "head": "head",
+        "img_size": 384,
+        "label": "ViT-S/16"
+      },
+      "head_module": "head",
+      "head_out_features": 16,
+      "parameters": 21817744,
+      "input_mean_std": {
+        "mean": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "std": [
+          0.5,
+          0.5,
+          0.5
+        ]
+      },
+      "logits_shape": [
+        4,
+        16
+      ],
+      "pos_embed_shapes": {
+        "pretrained": [
+          1,
+          197,
+          384
+        ],
+        "ours": [
+          1,
+          577,
+          384
+        ]
+      },
+      "pos_embed_max_abs_diff_vs_timm_resample": 0.0,
+      "pretrained_tensors_compared": 149,
+      "pretrained_tensors_mismatched": 0,
+      "pretrained_keys_missing_from_model": [],
+      "lr_groups": {
+        "encoder": {
+          "n_tensors": 150,
+          "n_params": 21811584,
+          "initial_lr": 5e-05
+        },
+        "head": {
+          "n_tensors": 2,
+          "n_params": 6160,
+          "initial_lr": 0.0005,
+          "names": [
+            "net.head.weight",
+            "net.head.bias"
+          ]
+        }
+      },
+      "lr_multiplier_epochs_0_1_3_4_20_39": [
+        0.25,
+        0.5,
+        1.0,
+        1.0,
+        0.5868240888334653,
+        0.0019026509541272274
+      ],
+      "dry_run_losses": [
+        2.946645736694336,
+        1.538791298866272,
+        0.8641009330749512,
+        0.624355137348175,
+        0.5910825729370117,
+        0.5921550393104553,
+        0.5786422491073608,
+        0.585695207118988,
+        0.576299786567688,
+        0.5727416276931763,
+        0.5724930763244629,
+        0.5719094276428223
+      ],
+      "checkpoint_roundtrip_max_abs_logit_diff": 0.0,
+      "optimizer_state_roundtrip_equal": true,
+      "scheduler_last_epoch_restored": true,
+      "scaler_scale_restored": true,
+      "pretrained_weights": {
+        "library": "timm",
+        "identifier": "vit_small_patch16_224.augreg_in1k",
+        "hf_hub_id": "timm/vit_small_patch16_224.augreg_in1k",
+        "hf_revision": "d01bbafd7491e7caeb940a9ceda55eb8f0f99f53",
+        "file": "model.safetensors",
+        "sha256": "c20a91d93f4757b0f581519f21ad91a875cf041764873a7a5bccc8e36f360dbf"
+      },
+      "passed": true
+    }
+  },
+  "all_passed": true
+}
