@@ -30,7 +30,8 @@ python code/figures/make_figures.py OUT/figures
 
 Each command writes the tables of the folder of the same name in `analysis_outputs/`; `OUT/supplementary_tables`
 corresponds to `supplementary_tables/`. The bootstrap intervals use a fixed seed, so the recorded tables are
-reproduced.
+reproduced. Two file names keep earlier table numbers: in the article, `table7_attribution` is Table 6 and
+`S3_table6_ablation_unrounded` is Table 5.
 
 ## Run the pipeline (GPU)
 
@@ -48,3 +49,8 @@ reproduced.
 annotation of each test image is given in `data/plantseg_test_corrected_mask_references.csv`, and the scripts derive
 it from the image name rather than from that column. The runs in `runs/` were produced by running this code as
 notebooks; the scripts in `code/pipeline/` have not been re-run in their current form.
+
+`runs/alignment_interventions_test_seeds11-55/donor_assignment.csv` lists, for each of the 435 test images, the image
+whose regional descriptor replaced its own in the two replacement tests: `cross_donor` is an image of another class,
+and `within_crop_donor` is an image of another disease of the same crop (empty for grape and squash, which have one
+disease each).
